@@ -1555,7 +1555,7 @@ def get_double_occu_list(VS):
             elif z2==0:            
                 util.get_double_append(i,145,s2,o2,x2,y2,z2,s3,o3,x3,y3,z3,s1,o1,x1,y1,z1,s4,o4,x4,y4,z4,s5,o5,x5,y5,z5,\
                                    d_Cu_list,p_list,idx_Cu,hole345_Cu_part, double_Cu_part)
-            elif z1==2:
+            elif z2==1:
                 apz_list.append(i)                  
                 
         if (x2, y2, z2)==(x4, y4, z4):
@@ -1565,7 +1565,7 @@ def get_double_occu_list(VS):
             elif z2==0:
                 util.get_double_append(i,135,s2,o2,x2,y2,z2,s4,o4,x4,y4,z4,s1,o1,x1,y1,z1,s3,o3,x3,y3,z3,s5,o5,x5,y5,z5,\
                                    d_Cu_list,p_list,idx_Cu,hole345_Cu_part, double_Cu_part) 
-            elif z1==2:
+            elif z2==1:
                 apz_list.append(i)                
                 
         if (x3, y3, z3)==(x4, y4, z4):
